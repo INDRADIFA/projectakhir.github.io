@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal portfolio website</title>
+    <i class="fa-duotone fa-bell-ring"></i>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ALAMAT/TTL</li>
+                <li><a href="#services">RIWAYAT SEKOLAH</a></li>
+                <li><a href="#portfolio">HOBI</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+                <i class="fa-regular fa-circle-xmark"></i>    
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            <a href="#" class="btn">Hire me</a>
+        </nav>
+    </div>
+    <div class="detail">
+        <h1>Hey, I'm <span>Difa</span></h1>
+        <p>seorang pelajar <br> sedang magang di stmik</p>
+        <a href="#" class="btn">Contact me</a>
+       
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/orang-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ALAMAT</h1>
+                    <p>Karanggondang,Rt/w:2/1,Pesalakan,Bandar,Kab.Batang,Jawateggah</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">ALAMAT</p>
+                       
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Tempat Lahir</span><br>Batang</li>
+                            <li><span>Tanggal Lahir</span><br>2 Januari</li>
+                            <li><span>Tahun</span><br>2007</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2017 - 2021</span><br>Team lead at Starapp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin Digital Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devolopment</span><br>Web App Development</li>
+                            <li><span>App Devolopment</span><br>Building android/iOS apps</li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+<!-- ---------services---------  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">RIWAYAT SEKOLAH</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>SD</h2>
+                <p>SD Negri Pesalakan 02</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>SMP</h2>
+                <p>SMP Negri 1 Wonotunggal</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>SMK</h2>
+                <p>SMK NU Bandar</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">HOBI</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="img/menjahit2.jpeg">
+                <div class="layer">
+                    <h3>Menjahit</h3>
+                    <p>selain mengisi waktu luang menjahit juga bisa menghasilkan tambahan uang saku</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/peliharaan.jpg">
+                <div class="layer">
+                    <h3>Main Sama Peliharaan</h3>
+                    <p>selain menjahit saya juga sering bermain dengan hewan peliharaan saya</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/nonton.jpg"> <div class="layer">
+                    <h3>Nonton</h3>
+                    <p>Menjahit dan bermain dengan peliharaan lumayan menghabiskan tenaga. saya biasa menonton, baik itu anime atau sekedar scroll tiktok
+                        untuk bersantai
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ---------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane-top"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i data-feather="facebook"></i></a>
+                    <a href=""><i data-feather="twitter"></i></a>
+                    <a href=""><i data-feather="instagram"></i></a>
+                    <a href=""><i data-feather="linkedin"></i></a>
+                </div>
+                <a href="img/orang-removebg-preview.png" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Massage" id="" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>wkwkwkwkwkwkwkwkwkwkwkwkwkwkwkwkwk</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }    
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    feather.replace();
+  </script>
+
+</body>
+</html>
